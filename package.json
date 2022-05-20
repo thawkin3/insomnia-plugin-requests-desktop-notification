@@ -2,11 +2,20 @@
   "name": "insomnia-plugin-requests-desktop-notification",
   "description": "Sends a desktop notification once all requests in a folder have completed running",
   "version": "1.0.0",
+  "main": "main.js",
+  "author": "Tyler Hawkins (http://tylerhawkins.info)",
+  "license": "MIT",
   "insomnia": {
     "name": "requests-desktop-notification",
     "description": "Sends a desktop notification once all requests in a folder have completed running"
   },
-  "main": "main.js",
+  "keywords": [
+    "insomnia",
+    "plugin",
+    "insomnia plugin",
+    "api requests",
+    "notification",
+    "desktop notification"],
   "dependencies": {
     "node-notifier": "^10.0.1"
   }
